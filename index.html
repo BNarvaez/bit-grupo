@@ -19,151 +19,140 @@
 
     <!--Formulario de página-->
 
-    <form id="formLogin" class="container p-5 border ">
+    <form id="formLogin" class="container">
         <div class="forms-grupo">
-            <label for="nombre-label"><b>Nombre</b></label>
-            <br>
+            <label for="nombre-label"><b>Nombre:</b></label>
             <input type="text" name="nombre-label" id="nombre-label" placeholder="Ingrese su Nombre" required>
         </div>
         <div class="forms-grupo">
-            <label for="email-label"><b>Email</b></label>
-            <br>
+            <label for="email-label"><b>Email:</b></label>
             <input type="email" name="email-label" id="email-label" placeholder="Ingrese su Correo Electrónico" required>
         </div>
         <br>
-        <div class="container forms-grupo">
-            <p>pregunta 1</p>
+        <div class="forms-grupo">
+            <p>1. ¿Cuando te sientes atraído/a por alguien, ¿qué es lo primero que te llama la atención?</p>
             <label>
-                <select name="pregunta" id="pregunta">
+                <select name="pregunta" id="pregunta" class=" selector">
                     <option disobled selected value>Selecciona una respuesta</option>
                     <option value="htero">Su físico y apariencia</option>
-                    <option value="homo">Su físico y apariencia</option>
-                    <option value="psexu">Su físico y apariencia</option>
-                    <option value="queer">Su físico y apariencia</option>
-                    <option value="asexu">Su físico y apariencia</option>
+                    <option value="homo">Su personalidad y actitud</option>
+                    <option value="psexu">No hay un patrón definido, depende de la persona</option>
+                    <option value="queer">No me identifico con las normas tradicionales de atracción</option>
+                    <option value="asexu">No suelo experimentar atracción</option>
                 </select>
             </label>
-            <br>
-            <br />
-            <p>pregunta 2</p>
+          
+            <p>2. Si imaginamos un mundo donde no existieran normas sociales sobre las relaciones, ¿cómo crees que serían tus preferencias en pareja?</p>
             <label>
-                <select name="pregunta2" id="pregunta2">
+                <select name="pregunta2" id="pregunta2" class="container  selector">
                     <option disobled selected value>Selecciona una respuesta</option>
-                    <option value="htero">Su físico y apariencia</option>
-                    <option value="homo">Su físico y apariencia</option>
-                    <option value="psexu">Su físico y apariencia</option>
-                    <option value="queer">Su físico y apariencia</option>
-                    <option value="asexu">Su físico y apariencia</option>
+                    <option value="htero">No cambiarían en nada, me atraen ciertos tipos de personas y eso no cambiaría</option>
+                    <option value="homo">Me sentiría más libre de explorar sin preocuparme por etiquetas</option>
+                    <option value="psexu">No estoy seguro/a, podría experimentar cambios en mis preferencias</option>
+                    <option value="queer">Me atrae la fluidez y diversidad en las conexiones humanas</option>
+                    <option value="asexu">No siento interés en relaciones de ningún tipo</option>
                 </select>
             </label>
-            <br>
-            <br />
-            <p>pregunta 3</p>
+          
+            <p>3. Recuerda la última vez que alguien te pareció atractivo/a. ¿Cómo era la situación?</p>
             <label>
-                <select name="pregunta3" id="pregunta3">
+                <select name="pregunta3" id="pregunta3" class="selector">
                     <option disobled selected value>Selecciona una respuesta</option>
-                    <option value="htero">Su físico y apariencia</option>
-                    <option value="homo">Su físico y apariencia</option>
-                    <option value="psexu">Su físico y apariencia</option>
-                    <option value="queer">Su físico y apariencia</option>
-                    <option value="asexu">Su físico y apariencia</option>
+                    <option value="htero">Ocurre casi siempre con el mismo tipo de persona</option>
+                    <option value="homo">Ocurre con distintos tipos de personas, pero con patrones similares</option>
+                    <option value="psexu">Puede pasar con cualquier persona sin una regla específicaa</option>
+                    <option value="queer">No me identifico con una atracción convencional o fija</option>
+                    <option value="asexu">No suele ocurrirme</option>
                 </select>
             </label>
-            <br>
-            <br />
-            <p>pregunta 4</p>
+            
+            <p>4. ¿Cómo reaccionas cuando ves una escena romántica en una película o serie?</p>
             <label>
-                <select name="pregunta4" id="pregunta4">
+                <select name="pregunta4" id="pregunta4" class="selector">
                     <option disobled selected value>Selecciona una respuesta</option>
-                    <option value="htero">Su físico y apariencia</option>
-                    <option value="homo">Su físico y apariencia</option>
-                    <option value="psexu">Su físico y apariencia</option>
-                    <option value="queer">Su físico y apariencia</option>
-                    <option value="asexu">Su físico y apariencia</option>
+                    <option value="htero">Me identifico con uno de los personajes y siento atracción</option>
+                    <option value="homo">Disfruto la escena, pero no me veo reflejado/a en los personajes</option>
+                    <option value="psexu">Depende de la escena, algunas me generan atracción, otras no</option>
+                    <option value="queer">Me gusta, pero no me identifico con una atracción tradicional</option>
+                    <option value="asexu">No me generan ninguna reacción emocional</option>
                 </select>
             </label>
-            <br>
-            <br />
-            <p>pregunta 5</p>
+           
+            <p>5. En una situación en la que alguien que no esperabas te confiesa su interés, ¿cómo crees que reaccionarías?</p>
             <label>
-                <select name="pregunta5" id="pregunta5">
+                <select name="pregunta5" id="pregunta5" class="selector">
                     <option disobled selected value>Selecciona una respuesta</option>
-                    <option value="htero">Su físico y apariencia</option>
-                    <option value="homo">Su físico y apariencia</option>
-                    <option value="psexu">Su físico y apariencia</option>
-                    <option value="queer">Su físico y apariencia</option>
-                    <option value="asexu">Su físico y apariencia</option>
+                    <option value="htero">Probablemente no correspondería a sus sentimientos</option>
+                    <option value="homo">Me sentiría halagado/a y consideraría la posibilidad</option>
+                    <option value="psexu">Depende de la persona y la conexión que tengamos</option>
+                    <option value="queer">Me interesa más la conexión que la identidad de la persona</option>
+                    <option value="asexu">No tendría interés en una relación romántica</option>
                 </select>
             </label>
-            <br>
-            <br />
-            <p>pregunta 6</p>
+           
+            <p>6. Si recuerdas momentos de tu infancia o adolescencia, ¿cómo experimentaste la atracción hacia otras personas?</p>
             <label>
-                <select name="pregunta6" id="pregunta6">
+                <select name="pregunta6" id="pregunta6" class="selector">
                     <option disobled selected value>Selecciona una respuesta</option>
-                    <option value="htero">Su físico y apariencia</option>
-                    <option value="homo">Su físico y apariencia</option>
-                    <option value="psexu">Su físico y apariencia</option>
-                    <option value="queer">Su físico y apariencia</option>
-                    <option value="asexu">Su físico y apariencia</option>
+                    <option value="htero">Siempre ha seguido un mismo patrón</option>
+                    <option value="homo">Tuvo momentos de confusión, pero con el tiempo se aclaró</option>
+                    <option value="psexu">Ha sido cambiante y sigue evolucionando</option>
+                    <option value="queer">Nunca me sentí identificado/a con los modelos tradicionales de atracción</option>
+                    <option value="asexu">Nunca experimenté atracción o interés</option>
                 </select>
             </label>
-            <br>
-            <br />
-            <p>pregunta 7</p>
+          
+            <p>7. En un grupo social donde nadie juzgara a nadie, ¿crees que tu forma de sentir atracción cambiaría?</p>
             <label>
-                <select name="pregunta7" id="pregunta7">
+                <select name="pregunta7" id="pregunta7" class="selector">
                     <option disobled selected value>Selecciona una respuesta</option>
-                    <option value="htero">Su físico y apariencia</option>
-                    <option value="homo">Su físico y apariencia</option>
-                    <option value="psexu">Su físico y apariencia</option>
-                    <option value="queer">Su físico y apariencia</option>
-                    <option value="asexu">Su físico y apariencia</option>
+                    <option value="htero">No, seguiría sintiéndome atraído/a de la misma manera</option>
+                    <option value="homo">Me sentiría más libre de explorar sin presión</option>
+                    <option value="psexu">Tal vez, porque aún no estoy seguro/a de mi orientación</option>
+                    <option value="queer">Me siento libre para conectar con quien quiera, sin límites</option>
+                    <option value="asexu">No tengo interés en la atracción ni en relaciones</option>
                 </select>
             </label>
-            <br>
-            <br />
-            <p>pregunta 8</p>
+           
+            <p>8. ¿Qué tan importante es para ti el género de la persona con la que tienes un vínculo emocional o romántico?</p>
             <label>
-                <select name="pregunta8" id="pregunta8">
+                <select name="pregunta8" id="pregunta8" class="selector">
                     <option disobled selected value>Selecciona una respuesta</option>
-                    <option value="htero">Su físico y apariencia</option>
-                    <option value="homo">Su físico y apariencia</option>
-                    <option value="psexu">Su físico y apariencia</option>
-                    <option value="queer">Su físico y apariencia</option>
-                    <option value="asexu">Su físico y apariencia</option>
+                    <option value="htero">Es un factor fundamental en mis relaciones</option>
+                    <option value="homo">Es relevante, pero no es lo único que importa</option>
+                    <option value="psexu">No tiene tanta importancia, depende más de la persona</option>
+                    <option value="queer">No considero que el género sea un factor relevante en mis relaciones</option>
+                    <option value="asexu">No me interesan los vínculos románticos o emocionales</option>
                 </select>
             </label>
-            <br>
-            <br />
-            <p>pregunta 9</p>
+            
+            <p>9. ¿Cómo describirías tu historial de relaciones o sentimientos románticos?</p>
             <label>
-                <select name="pregunta9" id="pregunta9">
+                <select name="pregunta9" id="pregunta9" class="selector">
                     <option disobled selected value>Selecciona una respuesta</option>
-                    <option value="htero">Su físico y apariencia</option>
-                    <option value="homo">Su físico y apariencia</option>
-                    <option value="psexu">Su físico y apariencia</option>
-                    <option value="queer">Su físico y apariencia</option>
-                    <option value="asexu">Su físico y apariencia</option>
+                    <option value="htero">Siempre me he sentido atraído/a por un mismo tipo de persona</option>
+                    <option value="homo">He sentido atracción por distintos tipos de personas en diferentes momentos</option>
+                    <option value="psexu">No hay un patrón claro, mis intereses cambian con el tiempo</option>
+                    <option value="queer">Me identifico con la fluidez en la atracción</option>
+                    <option value="asexu">Nunca he sentido atracción por nadie</option>
                 </select>
             </label>
-            <br>
-            <br />
-            <p>pregunta 10</p>
+       
+            <p>10. Cuando imaginas el futuro, ¿cómo te ves en términos de relaciones y pareja?</p>
             <label>
-                <select name="pregunta10" id="pregunta10">
+                <select name="pregunta10" id="pregunta10" class="selector">
                     <option disobled selected value>Selecciona una respuesta</option>
-                    <option value="htero">Su físico y apariencia</option>
-                    <option value="homo">Su físico y apariencia</option>
-                    <option value="psexu">Su físico y apariencia</option>
-                    <option value="queer">Su físico y apariencia</option>
-                    <option value="asexu">Su físico y apariencia</option>
+                    <option value="htero">En una relación con alguien que encaja en mis patrones de atracción</option>
+                    <option value="homo">Con alguien que me haga feliz, sin importar los detalles</option>
+                    <option value="psexu">No tengo claro con quién, mi atracción puede evolucionar</option>
+                    <option value="queer">Me interesa más la conexión con la persona que una estructura fija de relación</option>
+                    <option value="asexu">No me imagino en una relación</option>
                 </select>
             </label>
             <br />
             <br />
         </div>
-        <br>
+     
         <div class="forms-grupo">
             <p><b>Escribenos tus comentarios</b></p>
             <label for="comentario">
@@ -174,6 +163,13 @@
             <input type="submit" value="Enviar">
         </div>
     </form>
+
+    <!--Footer-->
+    <footer class="footer">
+        <div class="footer-copy">
+            <h2>&copy; 2025</h2>
+        </div>
+    </footer>
 
 
 
